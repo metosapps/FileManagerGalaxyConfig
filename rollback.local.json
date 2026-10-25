@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "package_name": "com.filegx.appsmanager",
+  "store": "galaxy_store",
+  "revision": 4,
+  "issued_at": 1792934571,
+  "expires_at": 1793539371,
+  "global": {
+    "maintenance_mode": false,
+    "maintenance_message": "Online services are temporarily paused. Local files remain available."
+  },
+  "android": {
+    "galaxy_store": {
+      "min_supported_version_code": 1,
+      "latest_version_code": 1,
+      "store_available_version_code": 1,
+      "update_mode": "none",
+      "update_url": "samsungapps://ProductDetail/com.filegx.appsmanager"
+    }
+  },
+  "links": {
+    "support_email": "chennoufo11@gmail.com",
+    "privacy_policy": "https://metosapps.github.io/FileManagerGalaxyConfig/privacy.html",
+    "terms": "https://metosapps.github.io/FileManagerGalaxyConfig/terms.html",
+    "website": "https://metosapps.github.io/FileManagerGalaxyConfig/"
+  },
+  "features": {
+    "wifi_transfer": false,
+    "premium_offers": true
+  },
+  "kill_switches": {
+    "ads_enabled": false,
+    "iap_enabled": false
+  },
+  "ads": {
+    "enabled": false,
+    "production_authorized": false,
+    "test_enabled": false,
+    "native_home": {
+      "enabled": true,
+      "unit_id": "",
+      "interval_seconds": 120,
+      "session_cap": 3
+    },
+    "native_analyzer": {
+      "enabled": true,
+      "unit_id": "",
+      "interval_seconds": 120,
+      "session_cap": 3
+    },
+    "rewarded": {
+      "enabled": false,
+      "unit_id": "",
+      "interval_seconds": 120,
+      "session_cap": 1
+    }
+  }
+}
