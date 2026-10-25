@@ -2,9 +2,9 @@
   "schema_version": 1,
   "package_name": "com.filegx.appsmanager",
   "store": "galaxy_store",
-  "revision": 3,
-  "issued_at": 1792934571,
-  "expires_at": 1793539371,
+  "revision": 4,
+  "issued_at": 1792936916,
+  "expires_at": 1793541716,
   "global": {
     "maintenance_mode": false,
     "maintenance_message": "Online services are temporarily paused. Local files remain available."
@@ -26,7 +26,7 @@
   },
   "features": {
     "wifi_transfer": true,
-    "premium_offers": true
+    "premium_offers": false
   },
   "kill_switches": {
     "ads_enabled": false,
@@ -35,15 +35,15 @@
   "ads": {
     "enabled": false,
     "production_authorized": false,
-    "test_enabled": true,
+    "test_enabled": false,
     "native_home": {
-      "enabled": true,
+      "enabled": false,
       "unit_id": "",
       "interval_seconds": 120,
       "session_cap": 3
     },
     "native_analyzer": {
-      "enabled": true,
+      "enabled": false,
       "unit_id": "",
       "interval_seconds": 120,
       "session_cap": 3
