@@ -32,3 +32,20 @@ Debug retains official demo IDs but no inventory is currently enabled.
 The user selected direct normal release; this repository does not submit the application.
 Renew before the signed seven-day expiry; no automatic renewal job is configured.
 Never deploy private keys or signing credentials.
+
+## Website
+
+The public landing page now includes product features, usage steps, eight illustrated
+feature previews with an accessible enlargement gallery, FAQs, Privacy, Terms and a
+dedicated support page. Store links target com.filegx.appsmanager; the page accurately
+labels the app release as in progress rather than claiming live availability. The Galaxy
+Store button is a custom platform link, not an official For Sale badge or endorsement.
+
+Generate static pages: `python3 build_site.py`. Validate routes/assets: `python3 validate_site.py`.
+The website validator checks that signed control files still match their committed versions. No external fonts,
+analytics scripts, contact-form backend or build dependencies are required. Web assets are
+encoded from this app's approved artwork; all content stays in this dedicated repository.
+
+The website update does not edit site/config.json or site/payload.json, enable ads/IAP,
+change the APK, or submit the application. Keep the displayed advertising, monetization
+and release-availability copy in step with any later approved production change.
