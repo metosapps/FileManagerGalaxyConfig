@@ -27,6 +27,8 @@ Production advertising must stay off until this exact app is live and the user e
 authorizes activation. A remote flag cannot override consent, Pro, lifecycle, operation,
 purchase, first-session, per-format and compiled safety gates.
 
-Current deployed revision: 3; production ads and IAP OFF. Debug uses official Google demo inventory.
+Current deployed revision: 4; all test and production inventory, Pro offers and IAP OFF.
+Debug retains official demo IDs but no inventory is currently enabled.
+The user selected direct normal release; this repository does not submit the application.
 Renew before the signed seven-day expiry; no automatic renewal job is configured.
 Never deploy private keys or signing credentials.
